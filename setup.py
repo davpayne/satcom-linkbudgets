@@ -16,6 +16,7 @@ setuptools.setup(name='satcom_linkbudgets',
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires = ['numpy'],
     python_requires='>=3.6',
       packages=['link_tools'],
       zip_safe=False)
