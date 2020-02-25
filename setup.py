@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(name='satcom_linkbudgets',
       version='0.1',
-      description='Satellite Link Budgets',
       author="David Payne",
     author_email="dpayne162@gmail.com",
     description="A package for calculating satellite link budgets, optical and RF",
@@ -18,5 +17,4 @@ setuptools.setup(name='satcom_linkbudgets',
     ],
     install_requires = ['numpy'],
     python_requires='>=3.6',
-      packages=['link_tools'],
       zip_safe=False)
